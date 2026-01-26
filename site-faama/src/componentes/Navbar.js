@@ -1,13 +1,23 @@
+import logo from '../../img/'
 
 function Navbar() {
   return (
-    <nav style={{ display: 'flex', justifyContent: 'space-between', padding: '1rem', background: '#333', color: '#fff' }}>
+    <nav>
       <h2>FAAMA</h2>
-      <ul style={{ display: 'flex', listStyle: 'none', gap: '15px' }}>
-        <li>Início</li>
-        <li>Sobre</li>
-
-      </ul>
+        <link to="/">
+        <img src={logo} alt=""/>
+        </link>
+        <ul>
+          <li>
+        <link to="/">Inicio</link>
+          </li>
+          <li>
+        <link to="/contact">Contato</link>
+          </li>
+          <li>
+        <link to="/company">Empresas</link>
+          </li>
+        </ul>
     </nav>
   );
 }
