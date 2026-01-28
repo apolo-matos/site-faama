@@ -2,10 +2,7 @@
 function Footer() {
   return (
       <nav>
-        <h2>FAAMA</h2>
-          <link to="/">
-          <img src={logo} alt=""/>
-          </link>
+        <h2></h2>
           <ul>
             <li>
           <link to="/">Inicio</link>

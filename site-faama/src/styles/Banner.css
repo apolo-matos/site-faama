@@ -1,0 +1,48 @@
+.Banner {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+    url("../Assets/116e36b240bac6e6e02d3f538b9d174d52a575ee.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Banner-content {  
+  text-align: center;
+  color: rgb(1, 49, 11);
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 20px;
+  
+}
+
+.Banner-content h1 {
+  font-size: 77px;
+  margin-bottom: 12px;
+}
+
+.Banner-content p {
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+}
+
+.quadrado-container {
+  width: 1200px;
+  height: 600px;
+  border-radius: 20px;
+  overflow: hidden;    
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); 
+  border: 4px solid rgba(255, 255, 255, 0.2);
+}
+
+.imagem-quadrada {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+  display: block;
+}
