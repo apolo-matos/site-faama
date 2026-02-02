@@ -2,7 +2,6 @@
 function Footer() {
   return (
       <nav>
-        <h2></h2>
           <ul>
             <li>
           <link to="/">Inicio</link>
