@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import Banner from "../components/Banner";
-import Destaques from "../components/Destaques";
+// import Destaques from "../components/Destaques";
 import "../styles/Inicio.css";
 
 function Inicio() {
@@ -8,7 +8,7 @@ function Inicio() {
     <>
       <Navbar />
       <Banner />
-      <Destaques />
+      {/* <Destaques /> */}
     </>
   );
 }

@@ -13,11 +13,22 @@ function Banner() {
         </div>
       </section>
         <div className="estudante-container">
+        <div className="quadrado lateral-sombra"></div>
           <img src={minhaImagem} alt="Destaque" className="imagem-estudante"/>
+          <div className="quadrado lateral-sombra"></div>
         </div>
+
+       <section className="informacao">
+          <h1>Conheça nossa rede de ensino.</h1>
+  
+        <div className="informacao">
+          <p>9.589 unidades escolares</p>
+          <p>264.741 alunos</p>
+          <p>111.476 professores</p>
+        </div>
+      </section>
     </>
   );
 }
 
 export default Banner;
-

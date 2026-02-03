@@ -1,16 +1,19 @@
 .Banner {
   height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.4), transparent 50%), 
+    linear-gradient(to bottom, transparent 50%, #1a3c34 100%),
     url("../Assets/116e36b240bac6e6e02d3f538b9d174d52a575ee.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0;
+  padding: 0;
 }
+
 .Banner-content {  
-  text-align: center;
-  color: rgb(1, 49, 11);
   text-align: center;
   color: white;
   display: flex;
@@ -33,19 +36,64 @@
 
 .estudante-container {
   width: 100%;
+  padding: 10px 0;        
   background-color: #1a3c34;
-  padding: 60px 0;        
   display: flex;
   justify-content: center;
-  align-items: center;   
+  align-items: center; 
+  gap: 20px;  
 }
 
 .imagem-estudante {
-  width: 90%;              
+  width: 100%;              
   max-width: 1000px;       
   height: auto;
   border-radius: 25px;     
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4); 
   display: block;
-  object-fit: cover;     
+  object-fit: cover;  
+}
+
+.informacao {
+  background-color: #1a3c34;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  padding: 60px 20px;
+  gap: 40px;
+}
+
+.informacao h1 {
+  font-size: 35px;
+  margin: 0;
+}
+
+.informacao {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.informacao p {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0;
+  max-width: 200px;
+}
+
+.quadrado {
+  width: 200px; 
+  height: 650px; 
+  border-radius: 25px; 
+  flex: 1;               
+  overflow: hidden;
+}
+
+.lateral-sombra {
+  background-color: #3c4e48; 
 }
