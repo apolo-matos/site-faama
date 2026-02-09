@@ -1,6 +1,9 @@
 import React from 'react';
 import "../styles/Banner.css";
 import minhaImagem from "../Assets/74cb7cc28b6604f1e737e52a11e122e293e951db.png";
+import { BiSolidSchool } from "react-icons/bi";
+import { PiStudentBold } from "react-icons/pi";
+import { LiaChalkboardTeacherSolid } from "react-icons/lia";
 
 
 function Banner() {
@@ -18,13 +21,13 @@ function Banner() {
           <div className="quadrado lateral-sombra"></div>
         </div>
 
-       <section className="informacao">
-          <h1>Conheça nossa rede de ensino.</h1>
+       <section className="informacao-ensino">
+          <h2>Conheça nossa rede de ensino.</h2>
   
         <div className="informacao">
-          <p>9.589 unidades escolares</p>
-          <p>264.741 alunos</p>
-          <p>111.476 professores</p>
+          <i><BiSolidSchool /> 9.589 unidades escolares </i>
+          <i><PiStudentBold /> 264.741 alunos </i>
+          <i><LiaChalkboardTeacherSolid /> 111.476 professores </i>
         </div>
       </section>
     </>

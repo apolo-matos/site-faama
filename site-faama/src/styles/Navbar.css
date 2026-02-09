@@ -13,7 +13,7 @@
 
 .navbar-container {
   width: 90%; 
-  max-width: 1200px;
+  max-width: 2000px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between; 
@@ -28,7 +28,7 @@
 .nav-links {
   display: flex;
   list-style: none;
-  gap: 35px;
+  gap: 65px;
   padding: 0;
   margin: 0;
 }
@@ -36,7 +36,8 @@
 .nav-links a {
   text-decoration: none;
   color: #ffffff; 
-  font-weight: 500;
+  font-size: larger;
+  font-weight: 700;
   transition: color 0.3s ease;
 }
 
