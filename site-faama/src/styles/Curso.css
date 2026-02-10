@@ -2,13 +2,15 @@
   display: flex;
   justify-content: center;
   align-items: center; 
-  gap: 40px;
   width: 100%;
   min-height: 800px; 
   background-color: #1a3c34; 
   padding: 160px 0 80px 0; 
   position: relative;
   padding: 180px 0 80px 0;
+  flex-direction: column; 
+  justify-content: flex-start;
+  gap: 250px; 
 }
 
 .curso-secao {
@@ -38,6 +40,14 @@
   background-color: white; 
 }
 
+.grupo-cards {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
 .card-curso::after {
   content: '';
   position: absolute;
@@ -66,4 +76,24 @@ transform: translateY(40px);
   z-index: 2; 
   width: min-content;
   text-transform: uppercase;
+}
+
+.destaque-educacao {
+  width: 100%;             
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 0;            
+  margin-top: 50px;
+  overflow: visible;     
+}
+
+.imagem-educacao {
+  width: 90vw; 
+  max-width: 1500px;
+  height: auto;     
+  display: block;
+  margin: 0 auto;   
+  border-radius: 30px;
+  flex-shrink: 0;   
 }

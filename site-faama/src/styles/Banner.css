@@ -96,7 +96,7 @@
 }
 
 .quadrado {
-  height: 850px; 
+  height: 750px; 
   border-radius: 25px; 
   flex: 1;               
   overflow: hidden;
