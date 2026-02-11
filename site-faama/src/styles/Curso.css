@@ -78,14 +78,14 @@ transform: translateY(40px);
   text-transform: uppercase;
 }
 
-.destaque-educacao {
+.educacao-container {
   width: 100%;             
   display: flex;
   justify-content: center; 
   align-items: center;
-  padding: 0;            
-  margin-top: 50px;
-  overflow: visible;     
+  position: relative;
+  margin-bottom: 0; 
+  line-height: 0; 
 }
 
 .imagem-educacao {
@@ -93,7 +93,79 @@ transform: translateY(40px);
   max-width: 1500px;
   height: auto;     
   display: block;
-  margin: 0 auto;   
   border-radius: 30px;
-  flex-shrink: 0;   
+  margin-bottom: 0;
+}
+
+.botao-saiba-mais {
+  position: absolute;
+  bottom: 3%; 
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF !important;  
+  font-weight: 900 !important; 
+  font-size: 1.1rem;
+  text-transform: lowercase;    
+  letter-spacing: 0.5px;        
+  background-color: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 2px solid #FFFFFF;
+  padding: 12px 45px;
+  border-radius: 25px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.botao-saiba-mais:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: translateX(-50%) scale(1.02);
+}
+
+.faama-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  color: #FFFFFF !important;
+  font-size: 2.1rem;
+  margin-top: -80px;
+  gap: 30px;
+}
+
+.faama-container p {
+  color: #FFFFFF !important;
+  font-weight: 900 !important; 
+  font-size: 2.1rem;
+  max-width: 1000px; 
+  line-height: 1.6; 
+  margin-top: 0;
+  white-space: normal;   
+  word-wrap: break-word;
+
+}
+
+.proxima-pagina {
+  background: none;     
+  border: none;         
+  padding: 0;       
+  cursor: pointer;  
+  display: inline-flex; 
+  align-items: center;
+}
+
+.proxima-pagina img {
+  width: 80px;          
+  height: auto;         
+  display: block;
+}
+
+.proxima-pagina:hover {
+  opacity: 0.7;
 }
